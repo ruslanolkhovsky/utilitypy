@@ -1,9 +1,8 @@
-"""A simple utility program in python 3 to replace a string all ove a file
-and save the result to a new fileself.
+"""A simple utility program in python 3 to replace a string all over a file with a new string, and save the result to a new file.
 
 Example:
 ``
-$ python3 file_str_replace.py -s file.txt -f 'A' -r 'B' -t newfile.txt
+$ python3 file_str_replace.py -s 'file.txt' -f 'A' -r 'B' -t 'new_file.txt'
 ``
 
 Arguments:
@@ -12,7 +11,7 @@ Arguments:
 
 --find, -f          String to be find and replaced with the new one (required)
 
---replace, -r       The new string to replace the exsisting string (required)
+--replace, -r       The new string to replace the existing string (required)
 
 --target, -t        Name of the target file (optional). If not defined,
                     the program creates a new file with the extension .new
